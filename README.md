@@ -1,6 +1,9 @@
 # deep-chicken-terminator
 deep learning to track (and possibly kill)  chicken in minecraft :hocho: :chicken:
 
+<img src="sample_images/hunter_alpha.gif" width="60%">.
+
+
 ## Step 1 - collecting training data for the deep neural network 
 
 <img src="sample_images/training_data_samples.png" width="120%">.
