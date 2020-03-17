@@ -1,5 +1,5 @@
 # deep-chicken-terminator
-deep learning to track (and possibly kill)  chicken in minecraft :hocho: :chicken:
+deep learning to track (and possibly kill)  chickens in minecraft :hocho: :chicken:
 
 <img src="sample_images/hunter_alpha.gif" width="60%">.
 
