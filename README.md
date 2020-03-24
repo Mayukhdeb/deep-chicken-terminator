@@ -19,7 +19,11 @@ deep learning to track (and possibly kill)  chickens in minecraft :hocho: :chick
 * The architecture was kept intentionally small so that it keeps a good response time on the live feed
 * The dataset had only 2000 images sized at 50*50, so training barely took any time 
 
-## Step 3 - detecting a chicken (or any animal for that matter) from an image
+## Step 3 - Collecting more training data with the trained model
+* this is done by saving the frames which give a probaility of over 99% on the pre trained model
+* these saved images are again used for further training, which means `hunter()` is getting better and better.
+
+## Step 4 - detecting a chicken (or any animal for that matter) from an image
 
 <img src="sample_images/pre_barbecue.png" width="60%">.
 
@@ -28,5 +32,11 @@ deep learning to track (and possibly kill)  chickens in minecraft :hocho: :chick
 * why use heatmaps instead of rectangles ? because they look cooler.
 
 <img src="sample_images/barbecue.png" width="60%">.
+
+## Step 5 (and probably the final step) - Train `hunter()` to detect fellow villagers and wipe out whole villages
+
+* Chickens are just an excuse, it can be easily modified to shoot arrows on anything that moves.
+* This is yet to be done.
+
 
 
