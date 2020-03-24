@@ -1,7 +1,7 @@
 # deep-chicken-terminator
 deep learning to track (and possibly kill)  chickens in minecraft :hocho: :chicken:
 
-<img src="sample_images/hunter_alpha.gif" width="60%">.
+<img src="sample_images/mouse_automation.gif" width="120%">.
 
 
 ## Step 1 - collecting training data for the deep neural network 
@@ -20,10 +20,15 @@ deep learning to track (and possibly kill)  chickens in minecraft :hocho: :chick
 * The dataset had only 2000 images sized at 50*50, so training barely took any time 
 
 ## Step 3 - Collecting more training data with the trained model
+
+<img src="sample_images/hunter_alpha.gif" width="60%">.
+
 * this is done by saving the frames which give a probaility of over 99% on the pre trained model
 * these saved images are again used for further training, which means `hunter()` is getting better and better.
 
-## Step 4 - detecting a chicken (or any animal for that matter) from an image
+## Step 4 - detecting a and tracking chicken (or any animal for that matter) with the mouse using the trained model
+
+
 
 <img src="sample_images/pre_barbecue.png" width="60%">.
 
