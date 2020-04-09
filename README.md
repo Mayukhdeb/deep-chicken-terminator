@@ -3,7 +3,9 @@ deep learning to track (and possibly kill)  chickens in minecraft :hocho: :chick
 
 [![Binder](https://camo.githubusercontent.com/bfeb5472ee3df9b7c63ea3b260dc0c679be90b97/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656e6465722d6e627669657765722d6f72616e67652e7376673f636f6c6f72423d66333736323626636f6c6f72413d346434643464)](https://nbviewer.jupyter.org/github/Mayukhdeb/deep-chicken-terminator/tree/master/)
 
-<img src="sample_images/mouse_automation.gif" width="120%">.
+<img src="sample_images/chicken_genocide.gif" width="120%">.
+
+
 
 
 ## Step 1 - collecting training data for the deep neural network 
@@ -30,6 +32,7 @@ deep learning to track (and possibly kill)  chickens in minecraft :hocho: :chick
 
 ## Step 4 - detecting a and tracking chicken (or any animal for that matter) with the mouse using the trained model
 
+<img src="sample_images/mouse_automation.gif" width="120%">.
 
 
 <img src="sample_images/pre_barbecue.png" width="60%">.
